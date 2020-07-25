@@ -1,11 +1,10 @@
-<mjml>
+<mjml >
   <mj-body background-color="#32D065">
-    <mj-section background-color="#363636">
+    <mj-section background-color="#363636" padding="0">
       <mj-column>
       <mj-image width="200px" src="https://cdn.noobtronics.in/a/noobtronics-logo.png"></mj-image>
-
     </mj-column>
-      <mj-column>
+      <mj-column padding-top="10px">
         <mj-navbar base-url="https://noobtronics.in" hamburger="hamburger" ico-color="#ffffff">
             <mj-navbar-link href="/shop" color="#ffffff">Shop</mj-navbar-link>
             <mj-navbar-link href="/learn" color="#ffffff">Learn</mj-navbar-link>
