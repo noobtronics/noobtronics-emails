@@ -16,11 +16,17 @@
     <mj-section  padding="10px">
       <mj-column background-color="white">
          <mj-spacer height="10px" />
-        <mj-text >Hi "namename",</mj-text>
-        <mj-text>We are sending this email because you filled Sign up form on our website.</mj-text>
-         <mj-text>To set password for your account, please click on below link - </mj-text>
+        <mj-text >Hi namename,</mj-text>
+        <mj-text>Thank you for creating your account.</mj-text>
+         <mj-text>Please confirm your email address by clicking Confirm below:</mj-text>
 
-         <mj-text padding-left="50px"><a href="linklink">linklink</a></mj-text>
+         <mj-spacer height="10px" />
+         <!-- <mj-text padding-left="50px"><a href="linklink">linklink</a></mj-text> -->
+         <mj-button font-family="Helvetica" href="linklink" background-color="#1c51a6" color="white">
+          Confirm
+         </mj-button>
+
+         <mj-text>We're happy to have you on board!</mj-text>
 
          <mj-spacer height="30px" />
          <mj-text align="center" font-size="12px" font-style="italic">noobtronics: from noob to pro electronics</mj-text>
@@ -29,7 +35,7 @@
     <mj-section padding="0">
       <mj-column>
         <mj-text padding-top="0" align="left">This email was sent to:</mj-text>
-        <mj-text padding-top="0" align="left">email@email.com</mj-text>
+        <mj-text padding-top="0" align="left">emailemail</mj-text>
       </mj-column>
       <mj-column>
         <mj-text padding-top="0" align="right"><a href="https://noobtronics.in">https://noobtronics.in</a></mj-text>
@@ -38,7 +44,7 @@
     </mj-section>
     <mj-section padding="0">
       <mj-column>
-        <mj-text font-size="10px" padding-top="0" align="center" >Click <a  href="https://ubsubscribe">here</a> to Unsubscribe</mj-text>
+        <!-- <mj-text font-size="10px" padding-top="0" align="center" >Click <a  href="https://ubsubscribe">here</a> to Unsubscribe</mj-text> -->
       </mj-column>
     </mj-section>
   </mj-body>
